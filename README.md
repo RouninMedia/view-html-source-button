@@ -1,6 +1,10 @@
 # View HTML Source Button
 A button which may be added to any web page and, when clicked, shows the HTML Source of that web page.
 
+## Working Example
+
+<a href="https://htmlpreview.github.io/?https://github.com/RouninMedia/quadTap/blob/master/all-in-one-quadtap.html" target="_blank">View HTML Source Button</a>
+
 ## HTML
 ```
 <button type="button" class="viewHTMLSource">View HTML Source</button>
