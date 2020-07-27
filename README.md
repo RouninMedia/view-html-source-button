@@ -61,6 +61,7 @@ const openHTMLSource = () => {
   
   let HTMLSourceScriptContent = '';
   HTMLSourceScriptContent += 'document.body.style.position = "fixed";';
+  
   HTMLSourceScriptContent += 'let HTMLSourceStyles = document.createElement("style");';
   HTMLSourceScriptContent += 'HTMLSourceStyles.textContent = `' + HTMLSourceStylesContent + '`;';
   HTMLSourceScriptContent += 'document.head.appendChild(HTMLSourceStyles);';
