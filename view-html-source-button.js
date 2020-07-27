@@ -47,13 +47,15 @@ const openHTMLSource = () => {
   
   let HTMLSourceScriptContent = '';
   HTMLSourceScriptContent += 'document.body.style.position = "fixed";';
+  
   HTMLSourceScriptContent += 'let HTMLSourceStyles = document.createElement("style");';
   HTMLSourceScriptContent += 'HTMLSourceStyles.textContent = `' + HTMLSourceStylesContent + '`;';
   HTMLSourceScriptContent += 'document.head.appendChild(HTMLSourceStyles);';
-  HTMLSourceScriptContent += 'let HTMLSourceDiv = document.createElement("div");';
-  HTMLSourceScriptContent += 'HTMLSourceDiv.classList.add("HTMLSource");';
-  HTMLSourceScriptContent += 'HTMLSourceDiv.innerHTML = `' + HTMLSource + '`;';
-  HTMLSourceScriptContent += 'document.body.appendChild(HTMLSourceDiv);';
+  
+  HTMLSourceScriptContent += 'let HTMLSourceMarkup = document.createElement("div");';
+  HTMLSourceScriptContent += 'HTMLSourceMarkup.classList.add("HTMLSource");';
+  HTMLSourceScriptContent += 'HTMLSourceMarkup.innerHTML = `' + HTMLSource + '`;';
+  HTMLSourceScriptContent += 'document.body.appendChild(HTMLSourceMarkup);';
   
   let HTMLSourceScript = document.createElement('script');
   
