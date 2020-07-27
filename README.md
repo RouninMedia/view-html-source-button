@@ -3,7 +3,7 @@ A button which may be added to any web page and, when clicked, shows the HTML So
 
 ## Working Example
 
-<a href="https://htmlpreview.github.io/?https://github.com/RouninMedia/quadTap/blob/master/all-in-one-quadtap.html" target="_blank">View HTML Source Button</a>
+<a href="https://htmlpreview.github.io/?https://github.com/RouninMedia/View-HTML-Source-Button/blob/master/view-html-source-button.html" target="_blank">View HTML Source Button</a>
 
 ## HTML
 ```
