@@ -13,7 +13,6 @@ const viewHTMLSourceButton = document.getElementsByClassName('viewHTMLSource')[0
 const openHTMLSource = () => {
 
   const HTMLSourceTab = window.open(window.location.href, '_blank');
-  // ^^^ Normally this works but apparently not in a StackSnippet
 
   let documentMarkup = document.documentElement.outerHTML.split('\n');
 
