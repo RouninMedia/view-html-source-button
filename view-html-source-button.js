@@ -50,7 +50,7 @@ const openHTMLSource = () => {
 
   let HTMLSourceStylesContent = '';
   HTMLSourceStylesContent += '.HTMLSource {position: absolute; top: 0; left: 0; z-index: 96; width: 100vw; height: 100vh; padding-bottom: 12px; font-family:monospace; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); box-sizing: border-box; overflow: auto;}';
-  HTMLSourceStylesContent += '.HTMLSourceList {list-style-type: none; margin: 8px 0 0; counter-reset: line;}';
+  HTMLSourceStylesContent += '.HTMLSourceList {list-style-type: none; margin: 8px 0 0; padding-left: 0; counter-reset: line;}';
   HTMLSourceStylesContent += '.HTMLSourceList li {position: relative; display: block; clear: both; width: 100%; font-size: 13px; line-height: 16px; white-space: pre-wrap;}';
   HTMLSourceStylesContent += '.HTMLSourceList li::before {content: counter(line); display: inline-block; float: left; width: ' + lineCounterWidth + 'px; margin-right: 6px; color: rgb(204, 204, 204); text-align: right; font-style: normal; counter-increment: line;}';
   HTMLSourceStylesContent += '.HTMLSourceList li .line {display: inline-block; float: right; width: calc(100%  - ' + lineCounterWidth + 'px - 6px);}';
