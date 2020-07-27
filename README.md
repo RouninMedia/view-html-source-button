@@ -14,7 +14,12 @@ const openHTMLSource = () => {
 
   const HTMLSourceTab = window.open(window.location.href, '_blank');
 
-  let documentMarkup = document.documentElement.outerHTML.split('\n');
+  let documentMarkup = document.documentElement.outerHTML;
+  documentMarkup = documentMarkup.replace(/><head>/g, '>\\n<head>');
+  documentMarkup = documentMarkup.replace(/<\\/body><\\/html>/g, '</body>\\n</html>');
+  documentMarkup = documentMarkup.replace(/<\\/script><script/g, '</script>\\n<script');
+  documentMarkup = documentMarkup.replace(/<([^>]+?)\\n([^>]+?)>/g, '<$1 $2>');
+  documentMarkup = documentMarkup.split('\\n');
 
   for (let i = 0; i < documentMarkup.length; i++) {
 
