@@ -4,7 +4,11 @@ const openHTMLSource = () => {
 
   const HTMLSourceTab = window.open(window.location.href, '_blank');
 
-  let documentMarkup = document.documentElement.outerHTML;
+  let documentDOM = document.documentElement.cloneNode(true);
+  let documentDOMBody = documentDOM.getElementsByTagName('body')[0]
+  documentDOMBody.removeAttribute('style');
+  
+  let documentMarkup = documentDOM.outerHTML;
   documentMarkup = documentMarkup.replace(/><head>/g, '>\n<head>');
   documentMarkup = documentMarkup.replace(/<\/body><\/html>/g, '</body>\n</html>');
   documentMarkup = documentMarkup.replace(/<script>[\s\S]+?<\/scrip.>/g, '');
