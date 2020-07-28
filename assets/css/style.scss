@@ -3,6 +3,10 @@
 
 @import "{{ site.theme }}";
 
+#forkme_banner {
+  right: 0;
+}
+
 .inner {
   max-width: 92%;
 }
