@@ -7,6 +7,7 @@ const openHTMLSource = () => {
   let documentMarkup = document.documentElement.outerHTML;
   documentMarkup = documentMarkup.replace(/><head>/g, '>\n<head>');
   documentMarkup = documentMarkup.replace(/<\/body><\/html>/g, '</body>\n</html>');
+  documentMarkup = documentMarkup.replace(/<script>[\s\S]+?<\/scrip.>/g, '');
   documentMarkup = documentMarkup.replace(/><script/g, '>\n<script');
   documentMarkup = documentMarkup.replace(/<([^>]+?)\n([^>]+?)>/g, '<$1 $2>');
   documentMarkup = documentMarkup.split('\n');
