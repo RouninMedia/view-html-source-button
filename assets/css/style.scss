@@ -2,8 +2,6 @@
 ---
 
 @import "";
-
-p::after {
- content: 'Test';
+p {
  color: red;
 }
