@@ -21,6 +21,8 @@ const openHTMLSource = () => {
   let documentDOM = document.documentElement.cloneNode(true);
   let documentDOMBody = documentDOM.getElementsByTagName('body')[0];
   documentDOMBody.removeAttribute('style');
+  let viewHTMLSourceButtonHelpers = [...documentDOM.getElementsByClassName('viewHTMLSourceButtonHelper')];
+  for (helper of viewHTMLSourceButtonHelpers) {helper.remove();}
   
   let documentMarkup = documentDOM.outerHTML;
   documentMarkup = documentMarkup.replace(/><head>/g, '>\n<head>');
@@ -82,17 +84,20 @@ const openHTMLSource = () => {
   HTMLSourceScriptContent += 'document.body.style.position = "fixed";';
   
   HTMLSourceScriptContent += 'let HTMLSourceStyles = document.createElement("style");';
+  HTMLSourceScriptContent += 'HTMLSourceStyles.classList.add("viewHTMLSourceButtonHelper");';
   HTMLSourceScriptContent += 'HTMLSourceStyles.textContent = `' + HTMLSourceStylesContent + '`;';
   HTMLSourceScriptContent += 'document.head.appendChild(HTMLSourceStyles);';
   
   HTMLSourceScriptContent += 'let HTMLSourceMarkup = document.createElement("div");';
   HTMLSourceScriptContent += 'HTMLSourceMarkup.classList.add("HTMLSource");';
+  HTMLSourceScriptContent += 'HTMLSourceMarkup.classList.add("viewHTMLSourceButtonHelper");';
   HTMLSourceScriptContent += 'HTMLSourceMarkup.innerHTML = `' + HTMLSource + '`;';
   HTMLSourceScriptContent += 'document.body.appendChild(HTMLSourceMarkup);';
   
   let HTMLSourceScript = document.createElement('script');
   
   HTMLSourceScript.textContent = HTMLSourceScriptContent;
+  HTMLSourceScript.classList.add('viewHTMLSourceButtonHelper');
   HTMLSourceTab.addEventListener('DOMContentLoaded', () => HTMLSourceTab.document.body.appendChild(HTMLSourceScript));
   HTMLSourceTab.focus();
 };
