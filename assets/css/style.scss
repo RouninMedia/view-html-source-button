@@ -2,8 +2,11 @@
 ---
 
 @import "{{ site.theme }}";
+
 p {
  color: red;
 }
 
-/* @import ""; */
+.inner {
+  max-width: 98%;
+}
