@@ -19,7 +19,7 @@ const openHTMLSource = () => {
   const HTMLSourceTab = window.open(window.location.href, '_blank');
 
   let documentDOM = document.documentElement.cloneNode(true);
-  let documentDOMBody = documentDOM.getElementsByTagName('body')[0]
+  let documentDOMBody = documentDOM.getElementsByTagName('body')[0];
   documentDOMBody.removeAttribute('style');
   
   let documentMarkup = documentDOM.outerHTML;
