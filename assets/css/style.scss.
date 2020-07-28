@@ -1,0 +1,9 @@
+---
+---
+
+@import "";
+
+p::after {
+ content: 'Test',
+ color: red;
+}
