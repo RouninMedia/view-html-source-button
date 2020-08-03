@@ -82,6 +82,7 @@ const openHTMLSource = () => {
   
 
   let HTMLSourceStylesContent = '';
+  HTMLSourceStylesContent += 'body {margin: 0;}';
   HTMLSourceStylesContent += '.HTMLSource {position: absolute; top: 0; left: 0; z-index: 96; width: 100vw; height: 100vh; padding-bottom: 12px; font-family:monospace; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); box-sizing: border-box; overflow: auto;}';
   HTMLSourceStylesContent += '.HTMLSourceList {list-style-type: none; margin: 8px 0 0; padding-left: 0; counter-reset: line;}';
   HTMLSourceStylesContent += '.HTMLSourceList li {position: relative; display: block; clear: both; width: 100%; font-size: 13px; line-height: 16px; white-space: pre-wrap;}';
