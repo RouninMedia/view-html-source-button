@@ -15,11 +15,25 @@ const openHTMLSource = () => {
   documentMarkup = documentMarkup.replace(/<\/body><\/html>/g, '</body>\n</html>');
   documentMarkup = documentMarkup.replace(/><script/g, '>\n<script');
   documentMarkup = documentMarkup.replace(/<([^>]+?)\n([^>]+?)>/g, '<$1 $2>');
+  documentMarkup = documentMarkup.replace(/<!--\s*\n/g, '<!--\n\n');
   documentMarkup = documentMarkup.split('\n');
 
 
   for (let i = 0; i < documentMarkup.length; i++) {
 
+    if (i < (documentMarkup.length - 1)) {
+
+      if ((comment === false) && (documentMarkup[i].substr(0, 4) === '<!--')) {
+
+        comment = true;
+      }
+
+      else if ((comment === true) && (documentMarkup[i].indexOf('-->') > -1)) {
+
+        comment = 'last';
+      }
+    }    
+    
     documentMarkup[i] = documentMarkup[i].replace(/\</g, '&lt;');
     documentMarkup[i] = documentMarkup[i].replace(/\"/g, '&quot;');
     documentMarkup[i] = documentMarkup[i].replace(/\>/g, '&gt;');
@@ -27,6 +41,18 @@ const openHTMLSource = () => {
     documentMarkup[i] = documentMarkup[i].replace(/(&lt;\/?)([\w-]+?)(\s|&gt;)/g, '$1<span class="HTMLSourceElementName">$2</span>$3');
     documentMarkup[i] = documentMarkup[i].replace(/\=&quot;(.+?)&quot;/g, '=&quot;<span class="HTMLSourceAttributeValue">$1</span><b>&quot;</b>');
     documentMarkup[i] = documentMarkup[i].replace(/([\w-]+)\=&quot;/g, '<span class="HTMLSourceAttributeName">$1</span><b>=&quot;</b>');
+    documentMarkup[i] = documentMarkup[i].replace(/&lt;!--(.*?)--&gt;/, '<span class="HTMLSourceComment">&lt;!--$1--&gt;</span>');
+
+    if (comment === true) {
+
+      documentMarkup[i] = '<span class="HTMLSourceComment">' + documentMarkup[i] + '</span>';
+    }
+
+    else if (comment === 'last') {
+
+      documentMarkup[i] = '<span class="HTMLSourceComment">' + documentMarkup[i] + '</span>';
+      comment = false;
+    }
   }
   
   let lineCounterWidth;
