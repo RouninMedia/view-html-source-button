@@ -92,6 +92,7 @@ const openHTMLSource = () => {
   HTMLSourceStylesContent += '.HTMLSourceElementName {color: rgb(128, 0, 128); font-weight: bold;}';
   HTMLSourceStylesContent += '.HTMLSourceAttributeName {font-weight: bold;}';
   HTMLSourceStylesContent += '.HTMLSourceAttributeValue {color: rgb(0, 0, 255);}';
+  HTMLSourceStylesContent += '.HTMLSourceComment, .HTMLSourceComment [class] {color: rgb(0, 127, 0); font-weight: normal; font-style: italic;}';
   
   let HTMLSourceScriptContent = '';
   HTMLSourceScriptContent += 'document.body.style.position = "fixed";';
