@@ -17,7 +17,8 @@ const openHTMLSource = () => {
   documentMarkup = documentMarkup.replace(/<([^>]+?)\n([^>]+?)>/g, '<$1 $2>');
   documentMarkup = documentMarkup.replace(/<!--\s*\n/g, '<!--\n\n');
   documentMarkup = documentMarkup.split('\n');
-
+  
+  let comment = false;
 
   for (let i = 0; i < documentMarkup.length; i++) {
 
