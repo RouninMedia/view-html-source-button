@@ -79,7 +79,7 @@ const openHTMLSource = () => {
     documentMarkup[i] = documentMarkup[i].replace(/([\w-]+)\=&quot;/g, '<span class="HTMLSourceAttributeName">$1</span><b>=&quot;</b>');
     documentMarkup[i] = documentMarkup[i].replace(/&lt;!--(.*?)--&gt;/, '<span class="HTMLSourceComment">&lt;!--$1--&gt;</span>');
 
-    documentMarkup[i] = documentMarkup[i].replace(/⚠️\\s(.+)/, '⚠️ <span class="HTMLSourceAshivaConsole">$1</span>');
+    documentMarkup[i] = documentMarkup[i].replace(/⚠️\s(.+)/, '⚠️ <span class="HTMLSourceAshivaConsole">$1</span>');
     documentMarkup[i] = documentMarkup[i].replace(/&lt;<span class="HTMLSourceElementName">ashivamodule<\/span>&gt;/, '');
     documentMarkup[i] = documentMarkup[i].replace(/&lt;\/<span class="HTMLSourceElementName">ashivamodule<\/span>&gt;/, '');
 
