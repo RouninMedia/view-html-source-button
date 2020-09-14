@@ -4,7 +4,7 @@ The **View HTML Source Button** is a button which may be added to any web page.
 When clicked, the button shows the `HTML Source` of that web page.
 
 ## Table of Contents
-1. <a href="#installation-and-usage">Installation and Usage</a>
+1. <a href="#install">Install</a>
 2. <a href="#configuration">Configuration</a>
 3. <a href="#working-example">Working Example</a>
 4. <a href="#faq">Frequently Asked Questions (FAQ)</a>
@@ -12,6 +12,8 @@ When clicked, the button shows the `HTML Source` of that web page.
     1. <a href="#html">HTML</a>
     2. <a href="#javascript">Javascript</a>
 6. <a href="#team">Team</a>
+
+<!--- . <a href="#installation-and-usage">Installation and Usage</a> -->
 <!--- . <a href="#code-of-conduct"/>Code of Conduct</a> -->
 <!--- . <a href="#filing-issues"/>Filing Issues</a> -->
 <!--- . <a href="#releases"/>Releases</a> -->
