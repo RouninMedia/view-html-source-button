@@ -27,6 +27,8 @@ When clicked, the button shows the `HTML Source` of that web page.
 <!--- . <a href="#financial-contributors"/>Financial Contributors</a> -->
 <!--- . <a href="#used-by"/>Used By</a> -->
 <!--- . <a href="#guides"/>Guides</a> -->
+<!--- . <a href="#resources"/>Resources</a> -->
+<!--- . <a href="#guides-and-resources"/>Guides and Resources</a> -->
 <!--- . <a href="#sponsors"/>Sponsors</a> -->
 <!--- . <a href="#technology-sponsors"/>Technology Sponsors</a> -->
 
