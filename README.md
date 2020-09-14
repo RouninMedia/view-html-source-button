@@ -5,7 +5,7 @@ When clicked, the button shows the `HTML Source` of that web page.
 
 ## Table of Contents
 1. <a href="#install">Install</a>
-2. <a href="#configuration">Configuration</a>
+2. <a href="#configure">Configure</a>
 3. <a href="#working-example">Working Example</a>
 4. <a href="#faq">Frequently Asked Questions (FAQ)</a>
 5. <a href="#full-code">Full Code</a>
@@ -14,6 +14,7 @@ When clicked, the button shows the `HTML Source` of that web page.
 6. <a href="#team">Team</a>
 
 <!--- . <a href="#installation-and-usage">Installation and Usage</a> -->
+<!--- . <a href="#configuration">Configuration</a> -->
 <!--- . <a href="#code-of-conduct"/>Code of Conduct</a> -->
 <!--- . <a href="#filing-issues"/>Filing Issues</a> -->
 <!--- . <a href="#releases"/>Releases</a> -->
@@ -22,9 +23,9 @@ When clicked, the button shows the `HTML Source` of that web page.
 <!--- . <a href="#sponsors"/>Sponsors</a> -->
 <!--- . <a href="#technology-sponsors"/>Technology Sponsors</a> -->
 
-## 1. <a id="installation-and-usage" />Installation and Usage of View HTML Source Button
+## 1. <a id="install" />Install View HTML Source Button
 
-## 2. <a id="configuration" />Configuration of View HTML Source Button
+## 2. <a id="configure" />Configure View HTML Source Button
 
 ## 3. <a id="working-example" />Working Example of View HTML Source Button
 
