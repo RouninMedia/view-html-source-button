@@ -32,6 +32,8 @@ When clicked, the button shows the `HTML Source` of that web page.
 <!--- . <a href="#guides-and-resources"/>Guides and Resources</a> -->
 <!--- . <a href="#sponsors"/>Sponsors</a> -->
 <!--- . <a href="#technology-sponsors"/>Technology Sponsors</a> -->
+<!--- . <a href="#project-status"/>Project Status</a> -->
+<!--- . <a href="#acknowledgements"/>Acknowledgements</a> -->
 
 ## 1. <a id="introduction" />Introducing View HTML Source Button
 
