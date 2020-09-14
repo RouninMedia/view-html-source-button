@@ -50,7 +50,7 @@ See an <a href="view-html-source-button.html" target="_blank">example page</a>, 
 
 ## 6. <a id="configure" />Configuring View HTML Source Button
 
-## 7. <a id="team" />Team and Contributors behind View HTML Source Button
+## 7. <a id="team-and-contributors" />Team and Contributors behind View HTML Source Button
 
 ## 8. <a id="code" />Code Appendix
 
