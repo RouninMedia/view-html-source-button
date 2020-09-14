@@ -26,7 +26,7 @@ A button which may be added to any web page and, when clicked, shows the HTML So
 
 <a href="view-html-source-button.html" target="_blank">View HTML Source Button</a>
 
-## 4. <a id="faq">Frequently Asked Questions (FAQ) on View HTML Source Button</a>
+## 4. <a id="faq">Frequently Asked Questions (FAQ) about View HTML Source Button</a>
 
 ## 5. <a id="full-code">Full Code of View HTML Source Button</a>
 
