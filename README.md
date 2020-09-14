@@ -8,10 +8,10 @@ When clicked, the button shows the `HTML Source` of that web page.
 2. <a href="#configure">Configure</a>
 3. <a href="#working-example">Working Example</a>
 4. <a href="#faq">Frequently Asked Questions (FAQ)</a>
-5. <a href="#full-code">Full Code</a>
+5. <a href="#team">Team</a>
+6. **Appendix I:** <a href="#full-code">Full Code</a>
     1. <a href="#html">HTML</a>
     2. <a href="#javascript">Javascript</a>
-6. <a href="#team">Team</a>
 
 <!--- . <a href="#installation-and-usage">Installation and Usage</a> -->
 <!--- . <a href="#configuration">Configuration</a> -->
@@ -32,18 +32,20 @@ When clicked, the button shows the `HTML Source` of that web page.
 
 ## 3. <a id="working-example" />Working Example of View HTML Source Button
 
-<a href="view-html-source-button.html" target="_blank">See an example page, showcasing a View HTML Source Button
+<a href="view-html-source-button.html" target="_blank">See an example page, showcasing a View HTML Source Button</a>
 
 ## 4. <a id="faq" />Frequently Asked Questions (FAQ) about View HTML Source Button
 
-## 5. <a id="full-code" />Full Code of View HTML Source Button
+## 5. <a id="team" />Team behind View HTML Source Button
 
-### 5.1 <a id="html" />HTML for View HTML Source Button
+## 6. **Appendix I:** <a id="full-code" />Full Code of View HTML Source Button
+
+### <a id="html" />HTML for View HTML Source Button
 ```
 <button type="button" class="viewHTMLSource">View HTML Source</button>
 ```
 
-### 5.2 <a id="javascript" />Javascript for View HTML Source Button
+### <a id="javascript" />Javascript for View HTML Source Button
 ```
 const viewHTMLSourceButton = document.getElementsByClassName('viewHTMLSource')[0];
 
@@ -206,5 +208,3 @@ const openHTMLSource = () => {
 
 viewHTMLSourceButton.addEventListener('click', openHTMLSource, false);
 ```
-
-## 6. <a id="team" />Team behind View HTML Source Button
