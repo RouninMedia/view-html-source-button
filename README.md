@@ -7,8 +7,8 @@ A button which may be added to any web page and, when clicked, shows the HTML So
 3. Working Example of View HTML Source Button
 4. Frequently Asked Questions (FAQ) on View HTML Source Button
 5. Full Code of View HTML Source Button
-        5.1 HTML for View HTML Source Button
-        5.2 Javascript for View HTML Source Button
+    1. HTML for View HTML Source Button
+    2. Javascript for View HTML Source Button
 6. Team behind View HTML Source Button
 <!--- . Code of Conduct -->
 <!--- . Filing Issues -->
