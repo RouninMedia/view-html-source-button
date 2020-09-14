@@ -1,5 +1,6 @@
 # View HTML Source Button
 The **View HTML Source Button** is a button which may be added to any web page.
+
 When clicked, the button shows the `HTML Source` of that web page.
 
 ## Table of Contents
