@@ -9,7 +9,7 @@ When clicked, the button shows the `HTML Source` of that web page.
 3. <a href="#working-example">Working Example</a>
 4. <a href="#faq">Frequently Asked Questions (FAQ)</a>
 5. <a href="#team">Team</a>
-6. **Appendix I:** <a href="#full-code">Full Code</a>
+6. <a href="#code">**Appendix I:** Code</a>
     1. <a href="#html">HTML</a>
     2. <a href="#javascript">Javascript</a>
 
@@ -38,7 +38,7 @@ When clicked, the button shows the `HTML Source` of that web page.
 
 ## 5. <a id="team" />Team behind View HTML Source Button
 
-## 6. **Appendix I:** <a id="full-code" />Full Code of View HTML Source Button
+## 6. <a id="code" />Appendix I: Code
 
 ### <a id="html" />HTML for View HTML Source Button
 ```
