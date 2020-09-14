@@ -2,40 +2,40 @@
 A button which may be added to any web page and, when clicked, shows the HTML Source of that web page.
 
 ## Table of Contents
-1. <a href="#installation-and-usage"/>Installation and Usage</a>
-2. Configuration of View HTML Source Button
-3. Working Example of View HTML Source Button
-4. Frequently Asked Questions (FAQ) on View HTML Source Button
-5. Full Code of View HTML Source Button
-    1. HTML for View HTML Source Button
-    2. Javascript for View HTML Source Button
-6. Team behind View HTML Source Button
-<!--- . Code of Conduct -->
-<!--- . Filing Issues -->
-<!--- . Releases -->
-<!--- . Semantic Versioning Policy -->
-<!--- . License -->
-<!--- . Sponsors -->
-<!--- . Technology Sponsors -->
+1. <a href="#installation-and-usage">Installation and Usage</a>
+2. <a href="#configuration">Configuration</a>
+3. <a href="#working-example">Working Example</a>
+4. <a href="#faq">Frequently Asked Questions (FAQ)</a>
+5. <a href="#full-code">Full Code</a>
+    1. <a href="#html">HTML</a>
+    2. <a href="#javascript">Javascript</a>
+6. <a href="#team">Team</a>
+<!--- . <a href="#code-of-conduct"/>Code of Conduct</a> -->
+<!--- . <a href="#filing-issues"/>Filing Issues</a> -->
+<!--- . <a href="#releases"/>Releases</a> -->
+<!--- . <a href="#semantic-versioning-policy"/>Semantic Versioning Policy</a> -->
+<!--- . <a href="#license"/>License</a> -->
+<!--- . <a href="#sponsors"/>Sponsors</a> -->
+<!--- . <a href="#technology-sponsors"/>Technology Sponsors</a> -->
 
-## 1. <a id="installation-and-usage"/>Installation and Usage of View HTML Source Button</a>
+## 1. <a id="installation-and-usage">Installation and Usage of View HTML Source Button</a>
 
-## 2. Configuration of View HTML Source Button
+## 2. <a id="configuration">Configuration of View HTML Source Button</a>
 
-## 3. Working Example of View HTML Source Button
+## 3. <a id="working-example">Working Example of View HTML Source Button</a>
 
 <a href="view-html-source-button.html" target="_blank">View HTML Source Button</a>
 
-## 4. Frequently Asked Questions (FAQ) on View HTML Source Button
+## 4. <a id="faq">Frequently Asked Questions (FAQ) on View HTML Source Button</a>
 
-## 5. Full Code of View HTML Source Button
+## 5. <a id="full-code">Full Code of View HTML Source Button</a>
 
-### 5.1 HTML for View HTML Source Button
+### 5.1 <a id="html">HTML for View HTML Source Button</a>
 ```
 <button type="button" class="viewHTMLSource">View HTML Source</button>
 ```
 
-### 5.2 Javascript for View HTML Source Button
+### 5.2 <a id="javascript">Javascript for View HTML Source Button</a>
 ```
 const viewHTMLSourceButton = document.getElementsByClassName('viewHTMLSource')[0];
 
@@ -199,4 +199,4 @@ const openHTMLSource = () => {
 viewHTMLSourceButton.addEventListener('click', openHTMLSource, false);
 ```
 
-## 6. Team behind View HTML Source Button
+## 6. <a id="team">Team behind View HTML Source Button</a>
