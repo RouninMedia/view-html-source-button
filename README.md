@@ -44,7 +44,7 @@ When clicked, the button shows the `HTML Source` of that web page.
 
 See an <a href="view-html-source-button.html" target="_blank">example page</a>, showcasing a **View HTML Source Button**.
 
-## 4. <a id="faq" />View HTML Source Button: Frequently Asked Questions (FAQ)
+## 4. <a id="faq" />View HTML Source Button FAQ
 
 ## 5. <a id="install" />Installing View HTML Source Button
 
