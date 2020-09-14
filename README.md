@@ -20,6 +20,7 @@ When clicked, the button shows the `HTML Source` of that web page.
 <!--- . <a href="#configuration">Configuration</a> -->
 <!--- . <a href="#code-of-conduct"/>Code of Conduct</a> -->
 <!--- . <a href="#filing-issues"/>Filing Issues</a> -->
+<!--- . <a href="#contributors"/>Contributors</a> -->
 <!--- . <a href="#releases"/>Releases</a> -->
 <!--- . <a href="#semantic-versioning-policy"/>Semantic Versioning Policy</a> -->
 <!--- . <a href="#license"/>License</a> -->
