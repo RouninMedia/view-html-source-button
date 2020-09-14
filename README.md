@@ -10,7 +10,7 @@ When clicked, the button shows the `HTML Source` of that web page.
 4. <a href="#faq">Frequently Asked Questions (FAQ)</a>
 5. <a href="#install">Install</a>
 6. <a href="#configure">Configure</a>
-7. <a href="#team">Team</a>
+7. <a href="#team-and-contributors">Team and Contributors</a>
 8. <a href="#code">Code Appendix</a>
     1. <a href="#html">HTML</a>
     2. <a href="#javascript">Javascript</a>
@@ -21,6 +21,7 @@ When clicked, the button shows the `HTML Source` of that web page.
 <!--- . <a href="#api"/>API</a> -->
 <!--- . <a href="#code-of-conduct"/>Code of Conduct</a> -->
 <!--- . <a href="#filing-issues"/>Filing Issues</a> -->
+<!--- . <a href="#team"/>Team</a> -->
 <!--- . <a href="#contributors"/>Contributors</a> -->
 <!--- . <a href="#releases"/>Releases</a> -->
 <!--- . <a href="#semantic-versioning-policy"/>Semantic Versioning Policy</a> -->
@@ -49,7 +50,7 @@ See an <a href="view-html-source-button.html" target="_blank">example page</a>, 
 
 ## 6. <a id="configure" />Configuring View HTML Source Button
 
-## 7. <a id="team" />Team behind View HTML Source Button
+## 7. <a id="team" />Team and Contributors behind View HTML Source Button
 
 ## 8. <a id="code" />Code Appendix
 
