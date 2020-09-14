@@ -18,7 +18,7 @@ A button which may be added to any web page and, when clicked, shows the HTML So
 <!--- . <a href="#sponsors"/>Sponsors</a> -->
 <!--- . <a href="#technology-sponsors"/>Technology Sponsors</a> -->
 
-## 1. <a id="installation-and-usage">Installation and Usage of View HTML Source Button</a>
+## 1. <a id="installation-and-usage" />Installation and Usage of View HTML Source Button
 
 ## 2. <a id="configuration">Configuration of View HTML Source Button</a>
 
