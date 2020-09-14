@@ -4,15 +4,17 @@ The **View HTML Source Button** is a button which may be added to any web page.
 When clicked, the button shows the `HTML Source` of that web page.
 
 ## Table of Contents
-1. <a href="#install">Install</a>
-2. <a href="#configure">Configure</a>
-3. <a href="#working-example">Working Example</a>
-4. <a href="#faq">Frequently Asked Questions (FAQ)</a>
-5. <a href="#team">Team</a>
-6. <a href="#code">Code Appendix</a>
+1. <a href="#install">Introduction</a>
+2. <a href="#install">Install</a>
+3. <a href="#configure">Configure</a>
+4. <a href="#working-example">Working Example</a>
+5. <a href="#faq">Frequently Asked Questions (FAQ)</a>
+6. <a href="#team">Team</a>
+7. <a href="#code">Code Appendix</a>
     1. <a href="#html">HTML</a>
     2. <a href="#javascript">Javascript</a>
-
+   
+<!--- . <a href="#description">Description</a> -->
 <!--- . <a href="#installation-and-usage">Installation and Usage</a> -->
 <!--- . <a href="#configuration">Configuration</a> -->
 <!--- . <a href="#code-of-conduct"/>Code of Conduct</a> -->
@@ -26,19 +28,21 @@ When clicked, the button shows the `HTML Source` of that web page.
 <!--- . <a href="#sponsors"/>Sponsors</a> -->
 <!--- . <a href="#technology-sponsors"/>Technology Sponsors</a> -->
 
-## 1. <a id="install" />Install View HTML Source Button
+## 1. <a id="introduction" />Introduction to View HTML Source Button
 
-## 2. <a id="configure" />Configure View HTML Source Button
+## 2. <a id="install" />Install View HTML Source Button
 
-## 3. <a id="working-example" />Working Example of View HTML Source Button
+## 3. <a id="configure" />Configure View HTML Source Button
+
+## 4. <a id="working-example" />Working Example of View HTML Source Button
 
 See an <a href="view-html-source-button.html" target="_blank">example page</a>, showcasing a **View HTML Source Button**.
 
-## 4. <a id="faq" />Frequently Asked Questions (FAQ) about View HTML Source Button
+## 5. <a id="faq" />Frequently Asked Questions (FAQ) about View HTML Source Button
 
-## 5. <a id="team" />Team behind View HTML Source Button
+## 6. <a id="team" />Team behind View HTML Source Button
 
-## 6. <a id="code" />Code Appendix
+## 7. <a id="code" />Code Appendix
 
 ### <a id="html" />HTML for View HTML Source Button
 ```
