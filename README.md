@@ -20,6 +20,9 @@ When clicked, the button shows the `HTML Source` of that web page.
 <!--- . <a href="#releases"/>Releases</a> -->
 <!--- . <a href="#semantic-versioning-policy"/>Semantic Versioning Policy</a> -->
 <!--- . <a href="#license"/>License</a> -->
+<!--- . <a href="#financial-contributors"/>Financial Contributors</a> -->
+<!--- . <a href="#used-by"/>Used By</a> -->
+<!--- . <a href="#guides"/>Guides</a> -->
 <!--- . <a href="#sponsors"/>Sponsors</a> -->
 <!--- . <a href="#technology-sponsors"/>Technology Sponsors</a> -->
 
