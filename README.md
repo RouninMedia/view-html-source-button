@@ -20,22 +20,22 @@ A button which may be added to any web page and, when clicked, shows the HTML So
 
 ## 1. <a id="installation-and-usage" />Installation and Usage of View HTML Source Button
 
-## 2. <a id="configuration">Configuration of View HTML Source Button</a>
+## 2. <a id="configuration" />Configuration of View HTML Source Button
 
-## 3. <a id="working-example">Working Example of View HTML Source Button</a>
+## 3. <a id="working-example" />Working Example of View HTML Source Button
 
-<a href="view-html-source-button.html" target="_blank">View HTML Source Button</a>
+<a href="view-html-source-button.html" target="_blank">View HTML Source Button
 
-## 4. <a id="faq">Frequently Asked Questions (FAQ) about View HTML Source Button</a>
+## 4. <a id="faq" />Frequently Asked Questions (FAQ) about View HTML Source Button
 
-## 5. <a id="full-code">Full Code of View HTML Source Button</a>
+## 5. <a id="full-code" />Full Code of View HTML Source Button
 
-### 5.1 <a id="html">HTML for View HTML Source Button</a>
+### 5.1 <a id="html" />HTML for View HTML Source Button
 ```
 <button type="button" class="viewHTMLSource">View HTML Source</button>
 ```
 
-### 5.2 <a id="javascript">Javascript for View HTML Source Button</a>
+### 5.2 <a id="javascript" />Javascript for View HTML Source Button
 ```
 const viewHTMLSourceButton = document.getElementsByClassName('viewHTMLSource')[0];
 
@@ -199,4 +199,4 @@ const openHTMLSource = () => {
 viewHTMLSourceButton.addEventListener('click', openHTMLSource, false);
 ```
 
-## 6. <a id="team">Team behind View HTML Source Button</a>
+## 6. <a id="team" />Team behind View HTML Source Button
