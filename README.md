@@ -2,7 +2,7 @@
 A button which may be added to any web page and, when clicked, shows the HTML Source of that web page.
 
 ## Table of Contents
-1. Installation and Usage of View HTML Source Button
+1. <a href="#installation-and-usage"/>Installation and Usage</a>
 2. Configuration of View HTML Source Button
 3. Working Example of View HTML Source Button
 4. Frequently Asked Questions (FAQ) on View HTML Source Button
@@ -18,7 +18,7 @@ A button which may be added to any web page and, when clicked, shows the HTML So
 <!--- . Sponsors -->
 <!--- . Technology Sponsors -->
 
-## 1. Installation and Usage of View HTML Source Button
+## 1. <a id="#installation-and-usage"/>Installation and Usage of View HTML Source Button</a>
 
 ## 2. Configuration of View HTML Source Button
 
