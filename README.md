@@ -24,6 +24,7 @@ When clicked, the button shows the `HTML Source` of that web page.
 <!--- . <a href="#team"/>Team</a> -->
 <!--- . <a href="#contributors"/>Contributors</a> -->
 <!--- . <a href="#releases"/>Releases</a> -->
+<!--- . <a href="#security"/>Security</a> -->
 <!--- . <a href="#semantic-versioning-policy"/>Semantic Versioning Policy</a> -->
 <!--- . <a href="#license"/>License</a> -->
 <!--- . <a href="#financial-contributors"/>Financial Contributors</a> -->
