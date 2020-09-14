@@ -1,16 +1,41 @@
 # View HTML Source Button
 A button which may be added to any web page and, when clicked, shows the HTML Source of that web page.
 
-## Working Example
+## Table of Contents
+1. Installation and Usage of View HTML Source Button
+2. Configuration of View HTML Source Button
+3. Working Example of View HTML Source Button
+4. Frequently Asked Questions (FAQ) on View HTML Source Button
+5. Full Code of View HTML Source Button
+5.1 HTML for View HTML Source Button
+5.2 Javascript for View HTML Source Button
+6. Team behind View HTML Source Button
+<!--- . Code of Conduct -->
+<!--- . Filing Issues -->
+<!--- . Releases -->
+<!--- . Semantic Versioning Policy -->
+<!--- . License -->
+<!--- . Sponsors -->
+<!--- . Technology Sponsors -->
+
+## 1. Installation and Usage of View HTML Source Button
+
+## 2. Configuration of View HTML Source Button
+
+## 3. Working Example of View HTML Source Button
 
 <a href="view-html-source-button.html" target="_blank">View HTML Source Button</a>
 
-## HTML
+## 4. Frequently Asked Questions (FAQ) on View HTML Source Button
+
+## 5. Full Code of View HTML Source Button
+
+### 5.1 HTML for View HTML Source Button
 ```
 <button type="button" class="viewHTMLSource">View HTML Source</button>
 ```
 
-## Javascript
+### 5.2 Javascript for View HTML Source Button
 ```
 const viewHTMLSourceButton = document.getElementsByClassName('viewHTMLSource')[0];
 
@@ -173,3 +198,5 @@ const openHTMLSource = () => {
 
 viewHTMLSourceButton.addEventListener('click', openHTMLSource, false);
 ```
+
+## 6. Team behind View HTML Source Button
