@@ -32,7 +32,7 @@ When clicked, the button shows the `HTML Source` of that web page.
 
 ## 3. <a id="working-example" />Working Example of View HTML Source Button
 
-See an <a href="view-html-source-button.html" target="_blank">example page</a>, showcasing a **View HTML Source Button**
+See an <a href="view-html-source-button.html" target="_blank">example page</a>, showcasing a **View HTML Source Button**.
 
 ## 4. <a id="faq" />Frequently Asked Questions (FAQ) about View HTML Source Button
 
