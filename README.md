@@ -53,12 +53,12 @@ See an <a href="view-html-source-button.html" target="_blank">example page</a>, 
 
 ## 8. <a id="code" />Code Appendix
 
-### <a id="html" />HTML for View HTML Source Button
+### 8.1 <a id="html" />HTML for View HTML Source Button
 ```
 <button type="button" class="viewHTMLSource">View HTML Source</button>
 ```
 
-### <a id="javascript" />Javascript for View HTML Source Button
+### 8.2 <a id="javascript" />Javascript for View HTML Source Button
 ```
 const viewHTMLSourceButton = document.getElementsByClassName('viewHTMLSource')[0];
 
