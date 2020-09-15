@@ -39,6 +39,10 @@ When clicked, the button shows the `HTML Source` of that web page.
 <!--- . <a href="#technology-sponsors"/>Technology Sponsors</a> -->
 <!--- . <a href="#project-status"/>Project Status</a> -->
 <!--- . <a href="#acknowledgements"/>Acknowledgements</a> -->
+<!--- . <a href="#contact"/>Contact</a> -->
+<!--- . <a href="#contact-info"/>Contact Info</a> -->
+<!--- . <a href="#contact-information"/>Contact Information</a> -->
+<!--- . <a href="#discussion"/>Discussion</a> -->
 
 ## 1. Introducing View HTML Source Button
 
