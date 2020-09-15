@@ -12,7 +12,7 @@ When clicked, the button shows the `HTML Source` of that web page.
 6. [Configure](#6-configuring-view-html-source-button)
 7. [Team and Contributors](#7-team-and-contributors-behind-view-html-source-button)
 8. [Code Appendix](#8-code-appendix)
-    1. [Technologies](#81-technologies)
+    1. [Built With](#81-built-with)
     2. [HTML](#82-html)
     3. [Javascript](#83-javascript)
 
@@ -43,26 +43,31 @@ When clicked, the button shows the `HTML Source` of that web page.
 <!--- . <a href="#contact-info"/>Contact Info</a> -->
 <!--- . <a href="#contact-information"/>Contact Information</a> -->
 <!--- . <a href="#discussion"/>Discussion</a> -->
+<!--- . <a href="#technologies"/>Technologies</a> -->
+<!--- . <a href="#to-do-list"/>To Do List</a> -->
+<!--- . <a href="#bug-feature-request"/>Bug / Feature Request</a> -->
+<!--- . <a href="#development"/>Development</a> -->
+
 
 ## 1. Introducing View HTML Source Button
 
-## 2. <a id="usage" />How to use View HTML Source Button
+## 2. How to use View HTML Source Button
 
-## 3. <a id="working-example" />Working Example of View HTML Source Button
+## 3. Working Example of View HTML Source Button
 
 See an <a href="view-html-source-button.html" target="_blank">example page</a>, showcasing a **View HTML Source Button**.
 
-## 4. <a id="faq" />Frequently Asked Questions (FAQ)
+## 4. Frequently Asked Questions (FAQ)
 
-## 5. <a id="install" />Installing View HTML Source Button
+## 5. Installing View HTML Source Button
 
-## 6. <a id="configure" />Configuring View HTML Source Button
+## 6. Configuring View HTML Source Button
 
-## 7. <a id="team-and-contributors" />Team and Contributors behind View HTML Source Button
+## 7. Team and Contributors behind View HTML Source Button
 
-## 8. <a id="code" />Code Appendix
+## 8. Code Appendix
 
-### 8.1 <a id="technologies" />Technologies
+### 8.1 Built With
 
 **View HTML Source Button** is built using:
 
