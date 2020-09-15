@@ -12,9 +12,9 @@ When clicked, the button shows the `HTML Source` of that web page.
 6. [Configure](#6-configuring-view-html-source-button)
 7. [Team and Contributors](#7-team-and-contributors-behind-view-html-source-button)
 8. [Code Appendix](#8-code-appendix)
-    1. [Technologies](#1-technologies)
-    2. [HTML](#2-html)
-    3. [Javascript](#3-javascript)
+    1. [Technologies](#81-technologies)
+    2. [HTML](#92-html)
+    3. [Javascript](#83-javascript)
 
 <!--- . <a href="#description">Description</a> -->
 <!--- . <a href="#installation-and-usage">Installation and Usage</a> -->
