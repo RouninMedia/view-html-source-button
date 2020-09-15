@@ -18,6 +18,7 @@ When clicked, the button shows the `HTML Source` of that web page.
 
 <!--- . <a href="#description">Description</a> -->
 <!--- . <a href="#installation-and-usage">Installation and Usage</a> -->
+<!--- . <a href="#features">Features</a> -->
 <!--- . <a href="#configuration">Configuration</a> -->
 <!--- . <a href="#api"/>API</a> -->
 <!--- . <a href="#code-of-conduct"/>Code of Conduct</a> -->
