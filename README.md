@@ -7,7 +7,7 @@ When clicked, the button shows the `HTML Source` of that web page.
 1. [Introduction](#1-introducing-view-html-source-button)
 2. [Usage](#2-how-to-use-view-html-source-button)
 3. [Working Example](#3-working-example-of-view-html-source-button)
-4. [Frequently Asked Questions (FAQ)](#4-view-html-source-button-faq)
+4. [Frequently Asked Questions (FAQ)](#4-frequently-asked-questions-faq)
 5. [Install](#5-installing-view-html-source-button)
 6. [Configure](#6-configuring-view-html-source-button)
 7. [Team and Contributors](#7-team-and-contributors-behind-view-html-source-button)
