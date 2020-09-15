@@ -73,6 +73,8 @@ See an <a href="view-html-source-button.html" target="_blank">example page</a>, 
 
 ## 6. Configuring View HTML Source Button
 
+There are no settings and nothing to configure. **View HTML Source Button** works out of the box.
+
 ## 7. Team and Contributors behind View HTML Source Button
 
 ## 8. Code Appendix
