@@ -72,7 +72,7 @@ See an <a href="view-html-source-button.html" target="_blank">example page</a>, 
 **View HTML Source Button** is built using:
 
  - `HTML5`
- - `Javascript ES6`
+ - `Javascript ES2015+`
 
 ### 8.2 <a id="html" />HTML
 ```
