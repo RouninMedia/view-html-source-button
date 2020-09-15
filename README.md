@@ -5,17 +5,17 @@ When clicked, the button shows the `HTML Source` of that web page.
 
 ## Table of Contents
 1. [Introduction](#1-introducing-view-html-source-button)
-2. <a href="#usage">Usage</a>
-3. <a href="#working-example">Working Example</a>
-4. <a href="#faq">Frequently Asked Questions (FAQ)</a>
-5. <a href="#install">Install</a>
-6. <a href="#configure">Configure</a>
-7. <a href="#team-and-contributors">Team and Contributors</a>
-8. <a href="#code">Code Appendix</a>
-    1. <a href="#technologies">Technologies</a>
-    2. <a href="#html">HTML</a>
-    3. <a href="#javascript">Javascript</a>
-   
+2. [Usage](#2-how-to-use-view-html-source-button)
+3. [Working Example](#3-working-example-of-view-html-source-button)
+4. [Frequently Asked Questions (FAQ)](#4-view-html-source-button-faq)
+5. [Install](#5-installing-view-html-source-button)
+6. [Configure](#6-configuring-view-html-source-button)
+7. [Team and Contributors](#7-team-and-contributors-behind-view-html-source-button)
+8. [Code Appendix](#8-code-appendix)
+    1. [Technologies](#1-technologies)
+    2. [HTML](#2-html)
+    3. [Javascript](#3-javascript)
+
 <!--- . <a href="#description">Description</a> -->
 <!--- . <a href="#installation-and-usage">Installation and Usage</a> -->
 <!--- . <a href="#configuration">Configuration</a> -->
