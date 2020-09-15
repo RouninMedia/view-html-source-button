@@ -13,7 +13,7 @@ When clicked, the button shows the `HTML Source` of that web page.
 7. [Team and Contributors](#7-team-and-contributors-behind-view-html-source-button)
 8. [Code Appendix](#8-code-appendix)
     1. [Technologies](#81-technologies)
-    2. [HTML](#92-html)
+    2. [HTML](#82-html)
     3. [Javascript](#83-javascript)
 
 <!--- . <a href="#description">Description</a> -->
