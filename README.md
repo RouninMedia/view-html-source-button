@@ -58,7 +58,7 @@ See an <a href="view-html-source-button.html" target="_blank">example page</a>, 
 
 ### 8.1 <a id="technologies" />Technologies
 
-**View HTML Source Button** is built with:
+**View HTML Source Button** is built using:
 
  - `HTML5`
  - `Javascript ES6`
