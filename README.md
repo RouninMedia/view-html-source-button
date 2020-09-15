@@ -63,12 +63,12 @@ See an <a href="view-html-source-button.html" target="_blank">example page</a>, 
  - `HTML5`
  - `Javascript ES6`
 
-### 8.2 <a id="html" />HTML for View HTML Source Button
+### 8.2 <a id="html" />HTML
 ```
 <button type="button" class="viewHTMLSource">View HTML Source</button>
 ```
 
-### 8.3 <a id="javascript" />Javascript for View HTML Source Button
+### 8.3 <a id="javascript" />Javascript
 ```
 const viewHTMLSourceButton = document.getElementsByClassName('viewHTMLSource')[0];
 
