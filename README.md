@@ -77,12 +77,12 @@ See an <a href="view-html-source-button.html" target="_blank">example page</a>, 
  - `Javascript ES2015+`
 
 ### 8.2 <a id="html" />HTML
-```html
+``` html
 <button type="button" class="viewHTMLSource">View HTML Source</button>
 ```
 
 ### 8.3 <a id="javascript" />Javascript
-```
+``` javascript
 const viewHTMLSourceButton = document.getElementsByClassName('viewHTMLSource')[0];
 
 const openHTMLSource = () => {
