@@ -12,8 +12,9 @@ When clicked, the button shows the `HTML Source` of that web page.
 6. <a href="#configure">Configure</a>
 7. <a href="#team-and-contributors">Team and Contributors</a>
 8. <a href="#code">Code Appendix</a>
-    1. <a href="#html">HTML</a>
-    2. <a href="#javascript">Javascript</a>
+    1. <a href="#technologies">Technologies</a>
+    2. <a href="#html">HTML</a>
+    3. <a href="#javascript">Javascript</a>
    
 <!--- . <a href="#description">Description</a> -->
 <!--- . <a href="#installation-and-usage">Installation and Usage</a> -->
@@ -55,12 +56,17 @@ See an <a href="view-html-source-button.html" target="_blank">example page</a>, 
 
 ## 8. <a id="code" />Code Appendix
 
-### 8.1 <a id="html" />HTML for View HTML Source Button
+### 8.1 <a id="technologies" />View HTML Source Button Technologies
+
+ - HTML5
+ - Javascript (ES2015+)
+
+### 8.2 <a id="html" />HTML for View HTML Source Button
 ```
 <button type="button" class="viewHTMLSource">View HTML Source</button>
 ```
 
-### 8.2 <a id="javascript" />Javascript for View HTML Source Button
+### 8.3 <a id="javascript" />Javascript for View HTML Source Button
 ```
 const viewHTMLSourceButton = document.getElementsByClassName('viewHTMLSource')[0];
 
