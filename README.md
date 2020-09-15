@@ -1,5 +1,8 @@
 # View HTML Source Button
 The **View HTML Source Button** is a button which may be added to any web page.
+![HTML5](https://img.shields.io/badge/HTML-HTML%205-orange)
+
+<!-- -->
 
 When clicked, the button shows the `HTML Source` of that web page.
 
