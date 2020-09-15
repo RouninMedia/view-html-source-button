@@ -1,13 +1,11 @@
 # View HTML Source Button
 
 ![HTML5](https://img.shields.io/badge/HTML-HTML%205-orange)
-![CSS3](https://img.shields.io/badge/CSS-CSS%203-yellow)
+<!-- ![CSS3](https://img.shields.io/badge/CSS-CSS%203-yellow) -->
 ![ES2015+](https://img.shields.io/badge/JS-ES%202015%2B-brightgreen)
-![SVG2](https://img.shields.io/badge/SVG-SVG%202-green)
-![PHP7](https://img.shields.io/badge/PHP-PHP%207-purple)
-![JSON](https://img.shields.io/badge/JSON-JSON-red)
-
-<!-- -->
+<!-- ![SVG2](https://img.shields.io/badge/SVG-SVG%202-green) -->
+<!-- ![PHP7](https://img.shields.io/badge/PHP-PHP%207-purple) -->
+<!-- ![JSON](https://img.shields.io/badge/JSON-JSON-red) -->
 
 The **View HTML Source Button** is a button which may be added to any web page.
 
