@@ -17,12 +17,14 @@ When clicked, the button shows the `HTML Source` of that web page.
     3. [Javascript](#83-javascript)
 
 <!--- . <a href="#description">Description</a> -->
+<!--- . <a href="#demo">Demo</a> // with an animated gif? -->
 <!--- . <a href="#installation-and-usage">Installation and Usage</a> -->
 <!--- . <a href="#features">Features</a> -->
 <!--- . <a href="#configuration">Configuration</a> -->
 <!--- . <a href="#api"/>API</a> -->
 <!--- . <a href="#code-of-conduct"/>Code of Conduct</a> -->
 <!--- . <a href="#filing-issues"/>Filing Issues</a> -->
+<!--- . <a href="#how-to-contribute">How to Contribute</a> -->
 <!--- . <a href="#team"/>Team</a> -->
 <!--- . <a href="#contributors"/>Contributors</a> -->
 <!--- . <a href="#sources"/>Sources</a> -->
