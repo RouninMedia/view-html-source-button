@@ -58,8 +58,8 @@ See an <a href="view-html-source-button.html" target="_blank">example page</a>, 
 
 ### 8.1 <a id="technologies" />View HTML Source Button Technologies
 
- - HTML5
- - Javascript (ES2015+)
+ - `HTML5`
+ - `Javascript (ES2015+)`
 
 ### 8.2 <a id="html" />HTML for View HTML Source Button
 ```
