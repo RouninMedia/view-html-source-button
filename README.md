@@ -78,7 +78,7 @@ See an <a href="view-html-source-button.html" target="_blank">example page</a>, 
 
 ### 8.2 <a id="html" />HTML
 ```
-HTML <button type="button" class="viewHTMLSource">View HTML Source</button>
+HTML {<button type="button" class="viewHTMLSource">View HTML Source</button>}
 ```
 
 ### 8.3 <a id="javascript" />Javascript
