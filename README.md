@@ -83,8 +83,8 @@ There are no settings and nothing to configure. **View HTML Source Button** work
 
 **View HTML Source Button** is built using:
 
- - `HTML5`
- - `Javascript ES2015+`
+ - [`HTML5`](#82-html)
+ - [`Javascript ES2015+`](#83-javascript)
 
 ### 8.2 <a id="html" />HTML
 ``` html
