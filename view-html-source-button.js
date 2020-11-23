@@ -10,7 +10,7 @@ const openHTMLSource = () => {
   let viewHTMLSourceButtonHelpers = [...documentDOM.getElementsByClassName('viewHTMLSourceButtonHelper')];
   for (helper of viewHTMLSourceButtonHelpers) {helper.remove();}
 
-  let ashivaModuleSections = [...documentDOM.querySelectorAll('[data-ashiva-module]')];
+  let ashivaModuleSections = [...documentDOM.querySelectorAll('da3sh-module')];
   let ashivaModuleElement;
   for (let ashivaModuleSection of ashivaModuleSections) {
 
@@ -21,6 +21,8 @@ const openHTMLSource = () => {
 
   let documentMarkup = documentDOM.outerHTML;
   documentMarkup = documentMarkup.replace(/><head>/g, '>\n<head>');
+  documentMarkup = documentMarkup.replace(/<ashivamodule>/g, '\n<ashivamodule>');
+  documentMarkup = documentMarkup.replace(/<\/ashivamodule>/g, '</ashivamodule>\n');
   documentMarkup = documentMarkup.replace(/<\/body><\/html>/g, '</body>\n</html>');
   documentMarkup = documentMarkup.replace(/><script/g, '>\n<script');
   documentMarkup = documentMarkup.replace(/<([^>]+?)\n([^>]+?)>/g, '<$1 $2>');
@@ -28,7 +30,6 @@ const openHTMLSource = () => {
   documentMarkup = documentMarkup.split('\n');
 
   let comment = false;
-  
   let ashivaModule = false;
 
   for (let i = 0; i < documentMarkup.length; i++) {
@@ -45,14 +46,14 @@ const openHTMLSource = () => {
         comment = 'last';
       }
 
-      if ((ashivaModule === false) && (documentMarkup[i].indexOf('<ashivamodule>') > -1)) {
-
-        ashivaModule = true;
-      }
-
-      else if ((ashivaModule === true) && (documentMarkup[i].indexOf('</ashivamodule>') > -1)) {
+      if (documentMarkup[i].indexOf('</ashivamodule>') > -1) {
 
         ashivaModule = 'last';
+      }
+
+      else if ((ashivaModule === false) && (documentMarkup[i].indexOf('<ashivamodule>') > -1)) {
+
+        ashivaModule = true;
       }
     }
 
@@ -137,7 +138,6 @@ const openHTMLSource = () => {
   HTMLSourceStylesContent += '.HTMLSourceComment .HTMLSourceAshivaConsole, .HTMLSourceAshivaModule .HTMLSourceComment .HTMLSourceAshivaConsole {color: rgb(255, 0, 0);}';
   
   let HTMLSourceScriptContent = '';
-
   HTMLSourceScriptContent += 'let HTMLSourceStyles = document.createElement("style");';
   HTMLSourceScriptContent += 'HTMLSourceStyles.classList.add("viewHTMLSourceButtonHelper");';
   HTMLSourceScriptContent += 'HTMLSourceStyles.textContent = `' + HTMLSourceStylesContent + '`;';
@@ -150,7 +150,6 @@ const openHTMLSource = () => {
   HTMLSourceScriptContent += 'document.body.appendChild(HTMLSourceMarkup);';
 
   let HTMLSourceScript = document.createElement('script');
-
   HTMLSourceScript.classList.add('viewHTMLSourceButtonHelper');
   HTMLSourceScript.textContent = HTMLSourceScriptContent;
   HTMLSourceTab.addEventListener('DOMContentLoaded', () => HTMLSourceTab.document.body.appendChild(HTMLSourceScript));
