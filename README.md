@@ -253,3 +253,6 @@ const openHTMLSource = () => {
 
 viewHTMLSourceButton.addEventListener('click', openHTMLSource, false);
 ```
+
+**Developer:** <a href="https://github.com/RouninMedia/view-html-source-button" target="_blank">Alan Lansdowne</a> at <a href="https://github.com/RouninMedia" target="_blank">Rounin Media</a>
+
