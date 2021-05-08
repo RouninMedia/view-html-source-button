@@ -10,19 +10,19 @@ const openHTMLSource = () => {
   let viewHTMLSourceButtonHelpers = [...documentDOM.getElementsByClassName('viewHTMLSourceButtonHelper')];
   for (helper of viewHTMLSourceButtonHelpers) {helper.remove();}
 
-  let ashivaModuleSections = [...documentDOM.querySelectorAll('da3sh-module')];
-  let ashivaModuleElement;
-  for (let ashivaModuleSection of ashivaModuleSections) {
+  let da3shModuleSections = [...documentDOM.querySelectorAll('da3sh-module')];
+  let da3shModuleElement;
+  for (let da3shModuleSection of da3shModuleSections) {
 
-    ashivaModuleElement = document.createElement('ashivaModule');
-    ashivaModuleSection.parentNode.insertBefore(ashivaModuleElement, ashivaModuleSection);
-    ashivaModuleElement.appendChild(ashivaModuleSection);
+    da3shModuleElement = document.createElement('da3shModule');
+    da3shModuleSection.parentNode.insertBefore(da3shModuleElement, da3shModuleSection);
+    da3shModuleElement.appendChild(da3shModuleSection);
   }
 
   let documentMarkup = documentDOM.outerHTML;
   documentMarkup = documentMarkup.replace(/><head>/g, '>\n<head>');
-  documentMarkup = documentMarkup.replace(/<ashivamodule>/g, '\n<ashivamodule>');
-  documentMarkup = documentMarkup.replace(/<\/ashivamodule>/g, '</ashivamodule>\n');
+  documentMarkup = documentMarkup.replace(/<da3sh-module>/g, '\n<da3sh-module>');
+  documentMarkup = documentMarkup.replace(/<\/da3sh-module>/g, '</da3sh-module>\n');
   documentMarkup = documentMarkup.replace(/<\/body><\/html>/g, '</body>\n</html>');
   documentMarkup = documentMarkup.replace(/><script/g, '>\n<script');
   documentMarkup = documentMarkup.replace(/<([^>]+?)\n([^>]+?)>/g, '<$1 $2>');
@@ -30,7 +30,7 @@ const openHTMLSource = () => {
   documentMarkup = documentMarkup.split('\n');
 
   let comment = false;
-  let ashivaModule = false;
+  let da3shModule = false;
 
   for (let i = 0; i < documentMarkup.length; i++) {
 
@@ -46,14 +46,14 @@ const openHTMLSource = () => {
         comment = 'last';
       }
 
-      if (documentMarkup[i].indexOf('</ashivamodule>') > -1) {
+      if (documentMarkup[i].indexOf('</da3sh-module>') > -1) {
 
-        ashivaModule = 'last';
+        da3shModule = 'last';
       }
 
-      else if ((ashivaModule === false) && (documentMarkup[i].indexOf('<ashivamodule>') > -1)) {
+      else if ((da3shModule === false) && (documentMarkup[i].indexOf('<da3sh-module>') > -1)) {
 
-        ashivaModule = true;
+        da3shModule = true;
       }
     }
 
@@ -66,9 +66,9 @@ const openHTMLSource = () => {
     documentMarkup[i] = documentMarkup[i].replace(/([\w-]+)\=&quot;/g, '<span class="HTMLSourceAttributeName">$1</span><b>=&quot;</b>');
     documentMarkup[i] = documentMarkup[i].replace(/&lt;!--(.*?)--&gt;/, '<span class="HTMLSourceComment">&lt;!--$1--&gt;</span>');
 
-    documentMarkup[i] = documentMarkup[i].replace(/⚠️\s(.+)/, '⚠️ <span class="HTMLSourceAshivaConsole">$1</span>');
-    documentMarkup[i] = documentMarkup[i].replace(/&lt;<span class="HTMLSourceElementName">ashivamodule<\/span>&gt;/, '');
-    documentMarkup[i] = documentMarkup[i].replace(/&lt;\/<span class="HTMLSourceElementName">ashivamodule<\/span>&gt;/, '');
+    documentMarkup[i] = documentMarkup[i].replace(/⚠️\s(.+)/, '⚠️ <span class="HTMLSourceDa3shConsole">$1</span>');
+    documentMarkup[i] = documentMarkup[i].replace(/&lt;<span class="HTMLSourceElementName">da3sh-module<\/span>&gt;/, '');
+    documentMarkup[i] = documentMarkup[i].replace(/&lt;\/<span class="HTMLSourceElementName">da3sh-module<\/span>&gt;/, '');
 
     if (comment === true) {
 
@@ -81,15 +81,15 @@ const openHTMLSource = () => {
       comment = false;
     }
 
-    if (ashivaModule === true) {
+    if (da3shModule === true) {
 
-      documentMarkup[i] = '<div class="HTMLSourceAshivaModule">' + documentMarkup[i] + '</div>';
+      documentMarkup[i] = '<div class="HTMLSourceDa3shModule">' + documentMarkup[i] + '</div>';
     }
 
-    else if (ashivaModule === 'last') {
+    else if (da3shModule === 'last') {
 
-      documentMarkup[i] = '<div class="HTMLSourceAshivaModule">' + documentMarkup[i] + '</div>';
-      ashivaModule = false;
+      documentMarkup[i] = '<div class="HTMLSourceDa3shModule">' + documentMarkup[i] + '</div>';
+      da3shModule = false;
     }
   }
 
@@ -130,12 +130,12 @@ const openHTMLSource = () => {
   HTMLSourceStylesContent += '.HTMLSourceAttributeName {font-weight: bold;}';
   HTMLSourceStylesContent += '.HTMLSourceAttributeValue {color: rgb(0, 0, 255);}';
   HTMLSourceStylesContent += '.HTMLSourceComment, .HTMLSourceComment [class] {color: rgb(0, 127, 0); font-weight: normal; font-style: italic;}';
-  HTMLSourceStylesContent += '.HTMLSourceAshivaModule {color: rgb(255, 125, 0); background-color: rgb(255, 239, 198);}';
-  HTMLSourceStylesContent += '.HTMLSourceAshivaModule::after {content: \'\';}';
-  HTMLSourceStylesContent += '.HTMLSourceAshivaModule .HTMLSourceElementName {color: rgb(187, 18, 0);}';
-  HTMLSourceStylesContent += '.HTMLSourceAshivaModule .HTMLSourceAttributeValue {color: rgb(212, 57, 0);}';
-  HTMLSourceStylesContent += '.HTMLSourceAshivaModule .HTMLSourceComment, .HTMLSourceAshivaModule .HTMLSourceComment [class] {color: rgb(208, 149, 127);}';
-  HTMLSourceStylesContent += '.HTMLSourceComment .HTMLSourceAshivaConsole, .HTMLSourceAshivaModule .HTMLSourceComment .HTMLSourceAshivaConsole {color: rgb(255, 0, 0);}';
+  HTMLSourceStylesContent += '.HTMLSourceDa3shModule {color: rgb(255, 125, 0); background-color: rgb(255, 239, 198);}';
+  HTMLSourceStylesContent += '.HTMLSourceDa3shModule::after {content: \'\';}';
+  HTMLSourceStylesContent += '.HTMLSourceDa3shModule .HTMLSourceElementName {color: rgb(187, 18, 0);}';
+  HTMLSourceStylesContent += '.HTMLSourceDa3shModule .HTMLSourceAttributeValue {color: rgb(212, 57, 0);}';
+  HTMLSourceStylesContent += '.HTMLSourceDa3shModule .HTMLSourceComment, .HTMLSourceDa3shModule .HTMLSourceComment [class] {color: rgb(208, 149, 127);}';
+  HTMLSourceStylesContent += '.HTMLSourceComment .HTMLSourceDa3shConsole, .HTMLSourceDa3shModule .HTMLSourceComment .HTMLSourceDa3shConsole {color: rgb(255, 0, 0);}';
   
   let HTMLSourceScriptContent = '';
   HTMLSourceScriptContent += 'let HTMLSourceStyles = document.createElement("style");';
