@@ -103,7 +103,6 @@ const openHTMLSource = () => {
   documentDOMBody.removeAttribute('class');
   let viewHTMLSourceButtonHelpers = [...documentDOM.getElementsByClassName('viewHTMLSourceButtonHelper')];
   for (helper of viewHTMLSourceButtonHelpers) {helper.remove()};
-  documentDOM.querySelector('da3sh-module[publishername="ashiva"][modulename="Ashiva_Control_Pad"]').remove();
   documentDOM.getElementsByClassName('ashiva-control-pad»by»ashiva»»»--openPad')[0].remove();
   let ashivaModuleSections = [...documentDOM.querySelectorAll('da3sh-module')];
   let ashivaModuleElement;
