@@ -8,7 +8,6 @@ const openHTMLSource = () => {
   documentDOMBody.removeAttribute('class');
   let viewHTMLSourceButtonHelpers = [...documentDOM.getElementsByClassName('viewHTMLSourceButtonHelper')];
   for (helper of viewHTMLSourceButtonHelpers) {helper.remove()};
-  documentDOM.getElementsByClassName('ashiva-control-pad»by»ashiva»»»--openPad')[0].remove();
   let ashivaModuleSections = [...documentDOM.querySelectorAll('da3sh-module')];
   let ashivaModuleElement;
   for (let ashivaModuleSection of ashivaModuleSections) {ashivaModuleElement = document.createElement('ashivaModule'); ashivaModuleSection.parentNode.insertBefore(ashivaModuleElement, ashivaModuleSection); ashivaModuleElement.appendChild(ashivaModuleSection)};
