@@ -15,7 +15,7 @@ const openHTMLSource = () => {
   documentMarkup = documentMarkup.replace(/><head>/g, '>\n<head>');
   documentMarkup = documentMarkup.replace(/<ashivamodule>/g, '\n<ashivamodule>');
   documentMarkup = documentMarkup.replace(/<\/ashivamodule>/g, '</ashivamodule>\n');
-  let bodyElement = documentMarkup.match(/<body[^>]+>/).toString().replace(/\s+/g, '\n');
+  let bodyElement = documentMarkup.match(/<body[^>]*>/).toString().replace(/\s+/g, '\n');
   documentMarkup = documentMarkup.replace(/<body[^>]+>/, bodyElement);
   documentMarkup = documentMarkup.replace(/<\/body><\/html>/g, '</body>\n</html>');
   documentMarkup = documentMarkup.replace(/><script/g, '>\n<script');
