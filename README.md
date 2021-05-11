@@ -97,7 +97,6 @@ const viewHTMLSourceButton = document.getElementsByClassName('viewHTMLSource')[0
 
 const openHTMLSource = () => {
 
-  speakText('See the Markup for this page');
   const HTMLSourceTab = window.open(window.location.href, '_blank');
   let documentDOM = document.documentElement.cloneNode(true);
   let documentDOMBody = documentDOM.getElementsByTagName('body')[0];
