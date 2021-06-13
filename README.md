@@ -11,6 +11,22 @@ The **View HTML Source Button** is a button which may be added to any web page.
 
 When clicked, the button shows the `HTML Source` of that web page.
 
+<!--
+
+LOOK AT Table of Contents and consider integrating list below:
+
+Motivation. A statement of what problem the component solves.
+Features. A description of how the component solves that problem.
+Installation. A link to where to get the component, and where to put it.
+Configuration. A description of how to use each attribute exposed to the consumer.
+Example. A Hello World walk-through showing how to get the component working on an HTML page.
+Customization. A list of all the CSS variables that can be overridden.
+Events. A list of the events emitted or consumed by the component and their place in the life-cycle.
+
+Source: Comment by Joe Honton at https://lea.verou.me/2020/09/the-failed-promise-of-web-components/
+
+-->
+
 ## Table of Contents
 1. [Introduction](#1-introducing-view-html-source-button)
 2. [Usage](#2-how-to-use-view-html-source-button)
