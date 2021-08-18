@@ -35,10 +35,12 @@ Source: Comment by Joe Honton at https://lea.verou.me/2020/09/the-failed-promise
 5. [Install](#5-installing-view-html-source-button)
 6. [Configure](#6-configuring-view-html-source-button)
 7. [Team and Contributors](#7-team-and-contributors-behind-view-html-source-button)
-8. [Code Appendix](#8-code-appendix)
-    1. [Built With](#81-built-with)
-    2. [HTML](#82-html)
-    3. [Javascript](#83-javascript)
+8. [Related Projects by Rounin Media](#8-related-projects-by-rounin-media)
+9. [Unrelated but Similar Projects by Other Developers](#9-unrelated-but-similar-projects-by-other-developers)
+10. [Code Appendix](#10-code-appendix)
+    1. [Built With](#101-built-with)
+    2. [HTML](#102-html)
+    3. [Javascript](#103-javascript)
 
 <!--- . <a href="#description">Description</a> -->
 <!--- . <a href="#demo">Demo</a> // with an animated gif? -->
@@ -93,21 +95,32 @@ There are no settings and nothing to configure. **View HTML Source Button** work
 
 ## 7. Team and Contributors behind View HTML Source Button
 
-## 8. Code Appendix
+## 8. Related Projects by Rounin Media
 
-### 8.1 Built With
+## 9. Unrelated but Similar Projects by Other Developers
+
+ The projects below are unrelated to **Rounin Media's** *View HTML Source Button* but may also interest the reader:
+ 
+ - ["View Source" Tool by neatnik.net](https://neatnik.net/view-source/)
+ - ["Make a View Source Button" by CSS Tricks](https://css-tricks.com/make-a-view-source-button/)
+ - [View Source Button (CSS Tricks on GitHub)](https://github.com/CSS-Tricks/View-Source-Button/blob/master/index.html)
+
+
+## 10. Code Appendix
+
+### 10.1 Built With
 
 **View HTML Source Button** is built using:
 
- - [`HTML5`](#82-html)
- - [`Javascript ES2015+`](#83-javascript)
+ - [`HTML5`](#102-html)
+ - [`Javascript ES2015+`](#103-javascript)
 
-### 8.2 <a id="html" />HTML
+### 10.2 <a id="html" />HTML
 ``` html
 <button type="button" class="viewHTMLSource">View HTML Source</button>
 ```
 
-### 8.3 <a id="javascript" />Javascript
+### 10.3 <a id="javascript" />Javascript
 ``` javascript
 const viewHTMLSourceButton = document.getElementsByClassName('viewHTMLSource')[0];
 
