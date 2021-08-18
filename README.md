@@ -101,9 +101,9 @@ There are no settings and nothing to configure. **View HTML Source Button** work
 
  The projects below are unrelated to **Rounin Media's** *View HTML Source Button* but may also interest the reader:
  
- - ["View Source" Tool by neatnik.net](https://neatnik.net/view-source/)
- - ["Make a View Source Button" by CSS Tricks](https://css-tricks.com/make-a-view-source-button/)
- - [View Source Button (CSS Tricks on GitHub)](https://github.com/CSS-Tricks/View-Source-Button/blob/master/index.html)
+ - ["View Source" Tool](https://neatnik.net/view-source/) by **neatnik.net**
+ - ["Make a View Source Button"](https://css-tricks.com/make-a-view-source-button/) by **CSS Tricks**
+ - [View Source Button](https://github.com/CSS-Tricks/View-Source-Button/blob/master/index.html) **(CSS Tricks on GitHub)**
 
 
 ## 10. Code Appendix
