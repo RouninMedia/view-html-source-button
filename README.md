@@ -38,9 +38,9 @@ Source: Comment by Joe Honton at https://lea.verou.me/2020/09/the-failed-promise
 8. [Related Projects by Rounin Media](#8-related-projects-by-rounin-media)
 9. [Unrelated but Similar Projects by Other Developers](#9-unrelated-but-similar-projects-by-other-developers)
 10. [Code Appendix](#10-code-appendix)
-    10.1. [Built With](#101-built-with)
-    10.2. [HTML](#102-html)
-    10.3. [Javascript](#103-javascript)
+    10.1 [Built With](#101-built-with)
+    10.2 [HTML](#102-html)
+    10.3 [Javascript](#103-javascript)
 
 <!--- . <a href="#description">Description</a> -->
 <!--- . <a href="#demo">Demo</a> // with an animated gif? -->
